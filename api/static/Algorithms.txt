@@ -1,0 +1,21 @@
+An algorithm is a set of commands that must be followed for a computer to perform calculations or other problem-solving operations.According to its formal definition, an algorithm is a finite set of instructions carried out in a specific order to perform a particular task. It is not the entire program or code; it is simple logic to a problem represented as an informal description in the form of a flowchart or pseudocode.
+1. Problem: A problem can be defined as a real-world problem or real-world instance problem for which you need to develop a program or set of instructions. An algorithm is a set of instructions. 
+2. Algorithm: An algorithm is defined as a step-by-step process that will be designed for a problem.
+3. Input: After designing an algorithm, the algorithm is given the necessary and desired inputs.
+4. Processing unit: The input will be passed to the processing unit, producing the desired output.
+5. Output: The outcome or result of the program is referred to as the output.
+After defining what an algorithm is, you will now look at algorithm characteristics.
+How do Algorithms Work?
+Algorithms are step-by-step procedures designed to solve specific problems and perform tasks efficiently in the realm of computer science and mathematics. These powerful sets of instructions form the backbone of modern technology and govern everything from web searches to artificial intelligence. Here's how algorithms work:
+
+1. Input: Algorithms take input data, which can be in various formats, such as numbers, text, or images.
+
+2. Processing: The algorithm processes the input data through a series of logical and mathematical operations, manipulating and transforming it as needed.
+
+3. Output: After the processing is complete, the algorithm produces an output, which could be a result, a decision, or some other meaningful information.
+
+4. Efficiency: A key aspect of algorithms is their efficiency, aiming to accomplish tasks quickly and with minimal resources.
+
+5. Optimization: Algorithm designers constantly seek ways to optimize their algorithms, making them faster and more reliable.
+
+6. Implementation: Algorithms are implemented in various programming languages, enabling computers to execute them and produce desired outcomes.
