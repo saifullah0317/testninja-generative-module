@@ -1,3 +1,5 @@
+import requests
+import base64
 from dotenv import load_dotenv
 from flask import Flask,request,jsonify
 from flask_cors import CORS, cross_origin
@@ -112,10 +114,9 @@ if __name__ == "__main__":
     extractedContent=[]
     for filepath in filepaths:
         if(filepath.endswith(".pdf")):
-            extractedContent=extractPDF(filepath).split('. ')
+            extractedContent=extractedContent+extractPDF(filepath).split('. ')
         elif(filepath.endswith(".txt")):
-            extractedContent=extractTXT(filepath).split('. ')
+            extractedContent=extractedContent+extractTXT(filepath).split('. ')
     for extractedContentLine in extractedContent:
         staticFilesContent[extractedContentLine]=0
-    # print(f"context dictionary: {staticFilesContent}")
     app.run(debug=True, port=8000)
