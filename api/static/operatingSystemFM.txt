@@ -1,0 +1,7 @@
+Before learning about the file system in the operating system, let us first get a good grasp of operating systems and files.
+
+Files is a collection of co-related information that is recorded in some format (such as text, pdf, docs, etc.) and is stored on various storage mediums such as flash drives, hard disk drives (HDD), magnetic tapes, optical disks, and tapes, etc. Files can be read-only or read-write. Files are simply used as a medium for providing input(s) and getting output(s).
+
+Now, an Operating System is nothing but a software program that acts as an interface between the hardware, the application software, and the users. The main aim of an operating system is to manage all the computer resources. So, we can simply say that the operating system gives a platform to the application software and other system software to perform their task.
+
+Refer to the diagram below to understand the value and working of the operating system.

@@ -1,0 +1,27 @@
+LINEAR SEARCH
+
+Assume that item is in an array in random order and we have to find an item. Then the only way to search for a target item is, to begin with, the first position and compare it to the target. If the item is at the same, we will return the position of the current item. Otherwise, we will move to the next position. If we arrive at the last position of an array and still can not find the target, we return -1. This is called the Linear search or Sequential search.
+
+ 
+Below is the code syntax for the linear search.
+
+
+
+
+// Linear Search in c#
+using System;
+using System.Collections.Generic;
+  
+class GFG
+{
+  public static int search(int[] array, int n, int x)
+  {
+    // Going through array sequencially
+    for (int i = 0; i < n; i++)
+        if (array[i] == x)
+            return i;
+    return -1;
+  }
+}
+  
+// This code is contributed by adityapatil12.
